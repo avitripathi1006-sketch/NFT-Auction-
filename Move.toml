@@ -1,0 +1,15 @@
+[package]
+name = "abcd"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0x10781ac2590528df4f2c512bbb76182e4cc295f7a8b7b0ec8f42afc0a726be40"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
